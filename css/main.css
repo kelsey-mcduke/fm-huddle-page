@@ -96,6 +96,8 @@ body {
     font-family: 'Open Sans', sans-serif;
     font-size: 1em;
     text-align: left;
+    background: url('../img/bg-mobile.svg');
+    background-size: contain;
     background-color: hsl(257, 40%, 49%);
     color: #e2e3ed;
 }
@@ -108,6 +110,7 @@ a {
 h1 {
     font-size: 1.25em;
     font-weight: 700;
+    font-family: 'Poppins', sans-serif;
 }
 
 figure {
@@ -116,7 +119,7 @@ figure {
 
 .content-wrapper {
     width: 90%;
-    margin: 50px 0;
+    margin: 10px 0;
 }
 
 /*-----Base Header - Footer Styles-----*/
@@ -138,6 +141,7 @@ header .content-wrapper {
     justify-content: left;
     align-items: center;
     flex-flow: row wrap;
+    margin: 0;
 }
 
 footer {
@@ -168,17 +172,44 @@ footer .social-icons p {
 }
 
 footer .attribution {
-    font-size: 1.25em;
+    font-size: .825em;
     margin: 20px 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: row wrap;
 }
 
-footer .attribution a {
+footer .attribution p a {
     text-decoration: none;
 }
 
 /*======Mobile Styles======*/
 
+header figure img {
+    width: 50%;
+}
 
+.mockups {
+    display: flex;
+    justify-content: center; 
+}
+
+.mockups .content-wrapper {
+    margin: 0;
+}
+
+.mockups figure img {
+    width: 100%;
+}
+
+.intro {
+    display: flex;
+    justify-content: center;
+}
+
+.intro h1 {
+}
 /* ==========================================================================
    Helper classes
    ========================================================================== */
